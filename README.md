@@ -4,7 +4,7 @@ Learning Maths Package
 
 ## Packages needed:
 ### 1. pytest
-        to install: pip install -U pytest 
+        pip install -U pytest 
 
 ## Classes
 ### 1. Maths_Test

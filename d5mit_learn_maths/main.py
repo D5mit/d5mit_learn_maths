@@ -1,16 +1,28 @@
 class Maths_Test:
+    """ Maths Test class.  This class is the actual math test that is being presented to a person to write.
 
-    def __init__(self, color, size, style, price):
-        self.color = color
-        self.size = size
-        self.style = style
-        self.price = price
+    Parameters:
+    argument1 (int): Description of arg1
 
-    def change_price(self, price):
-        self.price = price
+    description (string): Description of the test that is being written
+    start_time  #toDo
+    end_Time    #toDo
+    questions (DF)
+        Question
+        Answer
+        How many times to ask the question
+        How many times question answered correctly    #toDo
+        How many times question answered incorrectly  #toDo
+    person    #toDo
+    """
 
-    def calculate_discount(self, discount):
-        return self.price * (1 - discount)
+    def __init__(self, description, questions=[]):
+        self.description = description
+        self.questions = questions
 
-    def calculate_shipping(self, weight, rate):
-        return weight * rate
+    def set_questions(self, questions):
+        self.questions = questions
+
+    def get_questions(self):
+        return self.questions
+
