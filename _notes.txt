@@ -1,0 +1,24 @@
+Notes of step to create the actual package
+
+PyPi Upload
+-----------
+1. Create a setup.py containing the name of the package.  This will be uploaded to PyPi.
+2. Commands to upload to PyPi:
+    2.1 Ensure directory name of the package and the name in setup.py is the same
+    2.2 python setup.py sdist
+    2.3 pip install twine
+    2.4. Upload:
+        # commands to upload to the pypi test repository
+        twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+        pip install --index-url https://test.pypi.org/simple/ distributions
+
+        # command to upload to the pypi repository
+        twine upload dist/*
+        pip install distributions
+
+
+Setup Unit Testing
+------------------
+1. Create file test_main must start with an 'test_'
+2. To run tests: pytest
+
