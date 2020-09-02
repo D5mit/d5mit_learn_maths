@@ -47,8 +47,8 @@ class Maths_Test:
 
             # choose one question to ask
             questionIndex = np.argmax(questLeft_ratio_multi_array)
-            self.questionIndex = questionIndex
 
+            self.questionIndex = questionIndex
             return list(test_questions.iloc[questionIndex])
 
         else:
@@ -59,6 +59,7 @@ class Maths_Test:
 
     def check_answer(self, answer):
         question_index = self.questionIndex
+
         my_answer = answer
 
         iquestions_df = self.questions
