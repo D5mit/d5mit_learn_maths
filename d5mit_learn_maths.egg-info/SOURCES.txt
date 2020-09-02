@@ -1,4 +1,3 @@
-README.md
 setup.py
 d5mit_learn_maths/__init__.py
 d5mit_learn_maths/example.py
