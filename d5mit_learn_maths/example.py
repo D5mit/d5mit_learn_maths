@@ -14,10 +14,8 @@ test_questions = pd.DataFrame(questions)
 # create method maths_test
 maths_test = Maths_Test('Sum questions', test_questions)
 
+# get first question
 my_question = maths_test.ask_question()
-
-my_question = maths_test.ask_question()
-
 
 while my_question != []:
 

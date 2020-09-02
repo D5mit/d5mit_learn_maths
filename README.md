@@ -1,25 +1,31 @@
 # d5mit_learn_maths
-Learning Maths Package  
+A simple class to load a test and present the test to a person.   
 
 
 ## Packages needed:
 ### 1. pytest
-        pip install -U pytest 
+        pip install -U pytest
+        
+### 2. d5mit_learn_maths
+        pip install -U d5mit_learn_maths
 
-## Classes
-### 1. Maths_Test
-    - test_id
-    - start_time
-    - end_Time    
-    - questions (DF)
-        - Question
-        - Answer
-        - How many times to ask the question
-        - How many times question answered correctly
-        - How many times question answered incorrectly
-    - person
+### 3. Class
+    Maths_Test:
+    Maths Test class.  This class is the actual math test that is being presented to a person to write.
 
-### 2. Person #todo
-    - Email 
+    Parameters:
+    description (string): Description of the test that is being written
+    start_time  #toDo
+    end_Time    #toDo
+    questions (DF)
+        question (str) -  The question
+        answer (str) - The correct answer of the question
+        nrQuestions -  How many times to ask the question
+        How many times question answered correctly    #toDo
+        How many times question answered incorrectly  #toDo
+    person    #toDo
+    question_index
 
-### 3. Reporting  #todo
+### 4. Methods
+
+
