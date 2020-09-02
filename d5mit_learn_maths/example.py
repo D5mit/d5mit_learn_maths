@@ -1,5 +1,5 @@
 # imports
-from main import Maths_Test
+from d5mit_learn_maths import Maths_Test
 import pandas as pd
 
 # create dataframe with the questions
