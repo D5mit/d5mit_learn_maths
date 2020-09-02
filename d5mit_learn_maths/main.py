@@ -1,6 +1,5 @@
 class Maths_Test:
     """ Maths Test class.  This class is the actual math test that is being presented to a person to write.
-
     Parameters:
     description (string): Description of the test that is being written
     start_time  #toDo
@@ -109,4 +108,3 @@ class Maths_Test:
             iCorrect = False
 
         return iCorrect
-

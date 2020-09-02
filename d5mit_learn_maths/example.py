@@ -2,7 +2,6 @@
 from main import Maths_Test
 import pandas as pd
 
-
 # create dataframe with the questions
 questions = {'question': ['1 + 1 = ', '1 + 2 = '],
              'answer': ['2', '3'],

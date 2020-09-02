@@ -1,0 +1,11 @@
+README.md
+setup.py
+d5mit_learn_maths/__init__.py
+d5mit_learn_maths/example.py
+d5mit_learn_maths/main.py
+d5mit_learn_maths/test_main.py
+d5mit_learn_maths.egg-info/PKG-INFO
+d5mit_learn_maths.egg-info/SOURCES.txt
+d5mit_learn_maths.egg-info/dependency_links.txt
+d5mit_learn_maths.egg-info/not-zip-safe
+d5mit_learn_maths.egg-info/top_level.txt
